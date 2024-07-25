@@ -1,10 +1,8 @@
-# Importing all necessary modules
 import sqlite3
-
-from tkinter import *
-import tkinter.ttk as ttk
 import tkinter.messagebox as mb
 import tkinter.simpledialog as sd
+import tkinter.ttk as ttk
+from tkinter import *
 
 # Connecting to Database
 connector = sqlite3.connect('library.db')
@@ -198,7 +196,7 @@ btn_font = ('Gill Sans MT', 13)
 
 # Initializing the main GUI window
 root = Tk()
-root.title('PythonGeeks Library Management System')
+root.title('Library Management System')
 root.geometry('1010x530')
 root.resizable(0, 0)
 
